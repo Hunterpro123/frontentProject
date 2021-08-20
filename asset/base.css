@@ -1,0 +1,26 @@
+:root {
+    --white-color: #fff;
+    --text-color: rgba(0,0,0, 0.8);
+    --font-family: 'Playfair Display', serif;
+    --background-page:rgb(37,214,42);
+    --font-heading-size: 5rem; 
+    --font-heading-weight: 700;
+    --backgruond-about:rgb(229,229,229);
+    --color-precept: rgba(0,0,0,0.4);
+    --font-size-mobile-heading : 40px;
+}
+
+:root{
+    --height-img--percept: 306px;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}

@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/gridStyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&family=Playfair+Display:wght@400;500;600;700;800;900&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./font/fontawesome-free-5.15.4-web/css/all.css">
+    
+    <link rel="stylesheet" href="./asset/style.css">
+    <link rel="stylesheet" href="./asset/reponsive1.css">
+    <link rel="stylesheet" href="./asset/base.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="work">
+
+        <!--header-->
+        <header class="header">
+            <div class="header__search">
+                <div class="grid wide">
+                    
+                            <div class="search ">
+                                <div class="search__work">
+                                    <input type="text" class="search__work-text" placeholder="Search">
+                                    <a href=""class="search__work-icon"><i class="fas fa-search "></i></a>
+                                    
+                                </div>
+                            </div>
+                        
+                </div>
+            </div>
+
+            <div class="grid wide">
+                <div class="navbar">
+                    <div class="navbar__img">
+                        <img src="./img/default-logo.png" alt="logo">
+                    </div>
+                    <div class="navbar__item">
+                        <ul class="navbar__item-list">
+                            <li class="navbar__item-list--btn">
+                                <a href="">Home</a>
+                            </li>
+                            <li class="navbar__item-list--btn">
+                                <a href="">About</a>
+                            </li>
+                            <li class="navbar__item-list--btn">
+                                <a href="">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!--Menu__mobile-->
+                    <div class="menu__mobile">
+                        <label for="menu__mobile--input" class="menu__mobile-icon">
+                            <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg>
+                        </label>
+                        
+                        <input type="checkbox" id="menu__mobile--input" class="menu__input">
+
+                        <label for="menu__mobile--input" class="menu__mobile--overlay">
+                        </label>
+
+                        <div class="mobile__item">
+                            <label for="menu__mobile--input" class="mobie__item--close">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="times" class="svg-inline--fa fa-times fa-w-11" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 352 512"><path fill="currentColor" d="M242.72 256l100.07-100.07c12.28-12.28 12.28-32.19 0-44.48l-22.24-22.24c-12.28-12.28-32.19-12.28-44.48 0L176 189.28 75.93 89.21c-12.28-12.28-32.19-12.28-44.48 0L9.21 111.45c-12.28 12.28-12.28 32.19 0 44.48L109.28 256 9.21 356.07c-12.28 12.28-12.28 32.19 0 44.48l22.24 22.24c12.28 12.28 32.2 12.28 44.48 0L176 322.72l100.07 100.07c12.28 12.28 32.2 12.28 44.48 0l22.24-22.24c12.28-12.28 12.28-32.19 0-44.48L242.72 256z"></path></svg>
+                            </label>
+
+                            <ul class="mobile__item-list">
+                                <li class="mobile__item-list--btn">
+                                    <a href="">Home</a>
+                                </li>
+                                <li class="mobile__item-list--btn">
+                                    <a href="">About</a>
+                                </li>
+                                <li class="mobile__item-list--btn">
+                                    <a href="">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--end-->
+
+        <!--slider-->
+        <div class="slider">
+            <div class="slider-content">
+                <div class="slider-content-outfley"></div>
+                
+                <div class="slider-content-motify">
+                    <div class="grid wide">
+                        <div class="row">
+                            <div class="col c-12">
+                                <svg class="slider__bgr-triangle-updown" viewBox="0 0 160 140" x="0px" y="0px" id="svg-c6e8">
+                                    <path d="M80,60.5l28.3,49.5H51.7L80,60.5 M80,0L0,140h160L80,0L80,0z">
+                                    </path>
+                                </svg>
+                                
+                                <h3 class="slider__bgr-text">business</h3>
+                                
+                                <span class="slider__bgr-impart">“I declare this world is so beautiful that I can hardly believe it exists.” The beauty of nature can have a profound effect upon our senses, those gateways from the outer world to the inner, whether it results in disbelief...</span>
+                                
+                                <div href="" class="slider__bgr-triangle-down-btn">
+                                    <i class="fas fa-caret-down"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!--Route Work-->
+        <div class="route-work">
+            <div class="grid wide">
+                <h2 class="route-work__heading">How does it work</h2>
+
+                <div class="route-work-steps">
+                    <ul class="route-work-steps__list">
+                        <div class="row">
+                            <div class="col l-2-4 m-12 c-12">
+                                <li class="route-work-steps__list-item">
+                                    <i class="fas fa-mobile-alt route-work-steps__list-item__icon"></i>
+                                    <h4 class="route-work-steps__list-item__heading">STEP 1</h4>
+                                    <span class="route-work-steps__list-item__text">Sample text. Click to select the text box. Click again or double click to start editing the text.</span>
+                                </li>
+                            </div>
+                            <div class="col l-2-4 m-12 c-12">
+                                <li class="route-work-steps__list-item-right">
+                                    <div class="route-work-steps__list-item-vector">
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                </li>
+                            </div>
+                            <div class="col l-2-4 m-12 c-12">
+                                <li class="route-work-steps__list-item">
+                                    <i class="fas fa-user-alt route-work-steps__list-item__icon"></i>
+                                    <h4 class="route-work-steps__list-item__heading">STEP 1</h4>
+                                    <span class="route-work-steps__list-item__text">Sample text. Click to select the text box. Click again or double click to start editing the text.</span>
+                                </li>
+                            </div>
+                            <div class="col l-2-4 m-12 c-12">
+                                <li class="route-work-steps__list-item-right">
+                                    <div class="route-work-steps__list-item-vector">
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                </li>
+                            </div>
+                            <div class="col l-2-4 m-12 c-12">
+                                <li class="route-work-steps__list-item ">
+                                    <i class="fas fa-calendar-check route-work-steps__list-item__icon"></i>
+                                    <h4 class="route-work-steps__list-item__heading">STEP 1</h4>
+                                    <span class="route-work-steps__list-item__text">Sample text. Click to select the text box. Click again or double click to start editing the text.</span>
+                                </li>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+
+                <span class="route-work__end">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </span>
+            </div>
+        </div>
+
+        <!--Endd-->
+
+        <!--Coach-->
+
+        <div class="coach">
+            <div class="grid wide">
+                <div class="row coach__leader">
+                    <div class="col l-8 m-12 c-12">
+                        <div class="coach-content">
+                            <h2 class="coach-content__heading">
+                                    LIfe Coaching
+                            </h2>
+                            
+                            <div class="coach-content__text">
+                                <p>
+                                    Sed pulvinar proin gravida hendrerit lectus. Faucibus et molestie ac feugiat sed. Malesuada fames ac turpis egestas maecenas pharetra convallis posuere morbi. 
+                                </p>
+
+                                <p>
+                                    Turpis egestas integer eget aliquet nibh praesent. Vitae et leo duis ut diam quam nulla porttitor massa. Quis lectus nulla at volutpat diam ut venenatis tellus. Eget nullam non nisi est sit amet facilisis magna etiam. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="col l-4 m-12 c-12">
+                        <div class="coach-build">
+                     
+                        <h3 class="coach-buid__heading">
+                            BENEFITS OF COACHING FOR INDIVIDUALS
+                        </h3>
+                        <div class="coach-buid__border"></div>
+                            <ul class="coach-buid__list">
+                                <li class="coach-buid__list-item">
+                                    <i class="fas fa-check coach-buid__list-icon"></i>
+                                    <span class="coach-build__text">Establish and act toward achieving goals</span>
+                                </li>
+
+                                <li class="coach-buid__list-item">
+                                    <i class="fas fa-check coach-buid__list-icon"></i>
+                                    <span class="coach-build__text">
+                                        Increased level of engagement
+                                    </span>
+                                </li>
+
+                                <li class="coach-buid__list-item">
+                                    <i class="fas fa-check coach-buid__list-icon"></i>
+                                    <span class="coach-build__text">
+                                        Safe Place to Gain Perspective
+                                    </span>
+                                </li>
+
+                                <li class="coach-buid__list-item">
+                                    <i class="fas fa-check coach-buid__list-icon"></i>
+                                    <span class="coach-build__text">
+                                        Deeper Level of Learning
+                                    </span>
+                                </li>
+
+                                <li class="coach-buid__list-item">
+                                    <i class="fas fa-check coach-buid__list-icon"></i>
+                                    <span class="coach-build__text">
+                                        Build Personal Awareness
+                                    </span>
+                                </li>
+
+                                <li class="coach-buid__list-item">
+                                    <i class="fas fa-check coach-buid__list-icon"></i>
+                                    <span class="coach-build__text">
+                                        Boost your networking opportunities
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div class="col l-12 m-12 c-12">
+                        <div class="percept">
+                            <div class="percept__header">
+                                <div class="percept__heading-img">
+                                    <h2 class="percept__heading-text">We dwelling elegance do shutters appetite yourself diverted.</h2>
+                                </div>
+                            </div>
+
+                            <div class="percept__content">
+                                <ul class="percept__content-list">
+                                    <div class="row">
+                                        <div class="col l-4 m-12 c-12 ">
+                                            <li class="percept__content-list--li">
+                                                <h3 class="percept__content-heading">
+                                                    SAMPLE HEADLINE
+                                                </h3>
+                                                <div class="percept__content--advice">
+                                                    While we were not the first home cleaning company in the UK, we take pride in being market leaders in introducing an instant online booking system plus the facility for our customers to login and control their cleaning service 24/7, 365 days a year putting you in complete control. This development is yet again another example of the innovative approach Daily Poppins takes to addressing its customer needs.
+                                                </div> 
+                                            </li>
+                                        </div>
+
+                                        <div class="col l-4 m-12 c-12">
+                                            <li class="percept__content-list--li">
+                                                <h3 class="percept__content-heading">
+                                                    SAMPLE HEADLINE
+                                                </h3>
+                                                <div class="percept__content--advice">
+                                                    <div class="percept__content--advice-boder"></div>
+                                                    The principal reason we continue to adapt and evolve our business model is to ensure that we are meeting our customers’ expectations. One example of this has been to use modern technology and the introduction of the real time tracking our teams using GPS.
+                                                </div>
+                                            </li>
+                                        </div>
+
+                                        <div class="col l-4 m-12 c-12">
+                                            <li class="percept__content-list--li">
+                                                
+                                                <div class="percept__content--advice-wrap">
+                                                    As a result of our philosophy to be the most forward thinking home cleaning company and our focus on understanding customer needs, we have and will continue to expand across the UK with franchises in the southwest of England to the north east of Scotland with over 50 territories nationwide.
+                                                </div>
+                                            </li>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+
+        <!--Support-->
+        <div class="support">
+            <div class="support__background">
+                <div class="grid wide">
+                    <div class="row ">
+                        <div class="col l-6 m-12">
+                            <div class="support__image">
+                                
+                            </div>
+                        </div>
+
+                        <div class="col l-6 m-12">
+                            
+                                <div class="support-header">
+                                    <h2 class="support-header__heading">
+                                        We help your business to grow
+                                    </h2>
+                                </div>
+
+                                <div class="support-content__help-profil">
+                                    <span class="support-content__help--note">
+                                        Our team comes to your rescue in order to help you cope with this state of confusion. It’s a 360° digital marketing agency that takes care of everything that you need to build an unshakable and strong presence for your brand in this new digital world.
+                                    </span>
+
+                                    <span class="support-content__help">
+                                        A full-service digital agency has the staff to implement a multi-channel marketing strategy and manage your advertising campaigns. They help you reach your target market in multiple advertising channels and multiple devices.
+                                    </span>
+
+                                    <div class="support-content__help--icon">
+                                        <i class="fas fa-arrow-right"></i>
+                                    </div>
+                                </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Contact -->
+        <div class="about">
+            <div class="grid wide">
+                <div class="about__partner">
+                    <ul class="about__partner-list">
+                        <li class="about__partner-list--item">
+                            <img src="./img/partner1.jpeg" alt="" class="about__partner-list__img">
+                        </li>
+                        <li class="about__partner-list--item">
+                            <img src="./img/partner2.jpeg" alt="" class="about__partner-list__img">
+                        </li>
+                        <li class="about__partner-list--item">
+                            <img src="./img/partner3.jpeg" alt="" class="about__partner-list__img">
+                        </li>
+                        <li class="about__partner-list--item">
+                            <img src="./img/partner4.jpeg" alt="" class="about__partner-list__img">
+                        </li>
+                        <li class="about__partner-list--item">
+                            <img src="./img/partner5.jpeg" alt="" class="about__partner-list__img">
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="about__content">
+                    <div class="row">
+                        <div class="col l-6 m-12">
+
+                                <h2 class="about__content-heading">
+                                    About Us and Our Work
+                                </h2>
+                            
+                                <span class="about__content--review">
+                                    We provide expert Business Coaching to both individuals and businesses. With over 30 years of experience we’ll ensure that you’re always getting the best guidance from the top people in the entire industry.
+                                </span>
+
+                        </div>
+
+                        <div class="col l-12 m-12">
+                            <ul class="about__content-list">
+                                <div class="row">
+                                    <div class="col l-3 m-12">
+                                        <div class="about__content-list--border">
+											<li class="about__content-list--item">
+												<span class="about__content-list--number">
+													236
+												</span>
+
+												<h3 class="about__content-list--head">
+													CUPS OF COFFEE
+												</h3>
+
+												<div class="about__content-list--text">
+													Sample text. Click to select the text box. Click again or double click to start editing the text.
+												</div>
+											</li>
+										</div>
+                                    </div>
+
+									<div class="col l-3 m-12">
+                                        <div class="about__content-list--border">
+											<li class="about__content-list--item">
+												<span class="about__content-list--number">
+													17
+												</span>
+
+												<h3 class="about__content-list--head">
+													AWARDS WON
+												</h3>
+
+												<div class="about__content-list--text">
+													Sample text. Click to select the text box. Click again or double click to start editing the text.
+												</div>
+											</li>
+										</div>
+                                    </div>
+
+									<div class="col l-3 m-12">
+                                        <div class="about__content-list--border">
+											<li class="about__content-list--item">
+												<span class="about__content-list--number">
+													108
+												</span>
+
+												<h3 class="about__content-list--head">
+													HAPPY CLIENTS
+												</h3>
+
+												<div class="about__content-list--text">
+													Sample text. Click to select the text box. Click again or double click to start editing the text.
+												</div>
+											</li>
+										</div>
+                                    </div>
+
+									<div class="col l-3 m-12">
+                                        <div class="about__content-list--border">
+											<li class="about__content-list--item">
+												<span class="about__content-list--number">
+													150
+												</span>
+
+												<h3 class="about__content-list--head">
+													PROJECTS FINISHED
+												</h3>
+
+												<div class="about__content-list--text">
+													Sample text. Click to select the text box. Click again or double click to start editing the text.
+												</div>
+											</li>
+										</div>
+                                    </div>
+								</div>
+                            </ul>
+                        </div>
+					</div>
+                </div>
+			</div>
+        </div>
+		
+		<!-- Contact -->
+
+		<div class="contact">
+			<div class="grid wide">
+                <div class="row">
+					<div class="col l-8 m-12">
+                        <form action="" class="contact__form">
+							<div class="contact__form--inform">
+								<label for="contact__form-email" class="contact__form-heading">E-mail</label></br>
+								<div class="contact__form-border--bottom">
+								<input type="text" id="contact__form-email"  class="contact__form--text" placeholder="Enter a valid email adress">
+								</div>
+							</div>
+                            
+							<div class="contact__form--inform">
+								<label for="contact__form-name" class="contact__form-heading">Name</label></br>
+								<div class="contact__form-border--bottom">
+								<input type="text" id="contact__form-name"  class="contact__form--text" placeholder="Enter your name">
+                                </div>
+                            </div>
+                            
+							<div class="contact__form--inform">
+								<div class="contact__form-border--option">
+									<select name="" id="contact__form-border--item">
+										<i class="fas fa-sort-down"></i>
+										<option value="">ITEM 1</option>
+										<option value="">ITEM 2</option>
+										<option value="">ITEM 3</option>
+										<option value="">ITEM 4</option>
+									</select>
+								</div>
+							</div>
+                         
+                            <div class="contact__form--inform contact__form--inform--flex--wrap">
+                                <div class="contact__form--inform--flex">
+                                    <label for="contact__form--date" class="contact__form-heading">Date</label><br>
+                                    <div class="contact__form-border--bottom contact__form-border--trick">
+                                        <input type="text" id="contact__form--date" class="contact__form--text"  placeholder="DD/MM/ZZ"><label for="contact__form--date"><i class="far fa-calendar-alt contact__form--text-icon"></i></input></label>
+                                    </div>
+                                </div>
+
+                                <div class="contact__form--inform--flex">
+                                    <label for="contact__form--phone" class="contact__form-heading">Phone</label><br>
+                                    <div class="contact__form-border--bottom contact__form-border--trick">
+                                        <input type="text" id="contact__form--phone"  class="contact__form--text" placeholder="Enter your phone">
+                                    </div>
+                                </div>
+							</div>
+
+							<div class="contact__form--messager">
+								<label for="contact__form--messager-text" class="contact__form-heading">Messager</label><br>
+								<div class="contact__form-border--bottom">
+                                    <textarea cols="4" rows="50" type="text" id="contact__form--messager-text" class="contact__form--text"
+                                    placeholder="Enter your messager"></textarea>
+								</div>
+							</div>
+						    
+
+							<button class="contact__form--submite">
+                                Submit
+							</button>
+
+						</form>
+					</div>
+
+					<div class="col l-4 m-12">
+                        <div class="contact__end">
+							<span class="contact__end--text">Article evident arrived express highest men did boy. Mistress sensible entirely am so. Quick can manor smart money hopes worth too. Comfort produce husband boy her had hearing. Law others theirs passed but wishes. You day real less till dear read. Considered use dispatched melancholy sympathize discretion led. Oh feel if up to till like. He an thing rapid these after going drawn or. Timed she his law the spoil round defer. In surprise concerns informed betrayed he learning is ye. Ignorant formerly so ye blessing. He as spoke avoid given downs money on we. Of properly carriage shutters ye as wandered up repeated moreover.</span>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+        
+        <!--footer-->
+        <footer>
+            <div class="footer">
+                <h4 class="footer__content">
+                    Sample text. Click to select the text box. Click again or double click to start editing the text.
+                </h4>
+                <div class="footer__content--boder"></div>
+                <div class="footer__text">
+                    <a href="" class="footer__content-text--link">Website Templates</a>
+                    <span class="footer__content-text--and">created with</span>
+                    <a href="" class="footer__content-text--link">Website Builder Software.</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

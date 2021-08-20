@@ -1,0 +1,273 @@
+/* Mobile & tablet */
+@media (max-width:1023px) {
+    .navbar__item-list {
+        display: none;
+    }
+
+    .navbar__item-list {
+        display: none;
+    }
+
+    .menu__mobile{
+        display: block;
+    }
+}
+
+/* Ipad pro */
+@media (min-width: 1024px) and (max-width: 1365px){
+    .slider__bgr-triangle-updown {
+        margin-top: 32px;
+}
+}
+
+/* Table */
+@media (min-width: 740px) and (max-width: 1023px){
+.slider-content {
+    background-position: top center;
+    padding-top: 64%;
+}
+
+.slider__bgr-triangle-updown {
+    margin-top: 18px;
+}
+
+.slider__bgr-triangle-down-btn {
+    margin-top: 15px;
+}
+
+.route-work-steps__list-item-right {
+    padding: 24px 0;
+}
+
+.route-work__end{
+    padding: 60px 70px 74px;
+}
+
+.coach-content {
+    margin-left: 0px;
+}
+
+.percept__heading-text{
+    padding: 0 34px;
+}
+
+.support-header {
+    height: 160px;
+    left: 75px;
+    top: -789px;
+    width: 598px;
+}
+
+.support-content__help-profil {
+    margin: 0;
+    margin-top: -170px;
+}
+
+.support-content__help--icon {
+    margin: 50px;
+}
+
+.about__content-list--border{
+    margin-top: 16px;
+}
+
+.contact__end {
+    padding: 0;
+    margin: 0 0 104px;
+}
+
+.contact__end--text {
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.8;
+    padding: 66px 38px 59px;
+}
+
+.footer{
+    height: auto;
+}
+
+.footer__content{
+    margin: 29px 142px;
+}
+
+}
+/* Mobile */
+@media (max-width: 739px){
+
+    .header{
+        height: 213px;
+    }
+
+    .header__search {
+        height: 100px;
+    }
+
+    .search {
+        height: 100px;
+        justify-content: center;
+    }
+
+    .search__work {
+        height: 50px;
+        width: 338px;
+        margin: 32px 38px 16px;
+    }
+
+    .search__work-text {
+        width: 241px;
+    }
+
+    .navbar {
+        height: calc(213px - 100px);
+    }
+
+    .navbar__img{
+        margin-left: 38px;
+    }
+
+    .slider-content {
+        padding-top: 154%;
+    
+        }
+    
+    .slider__bgr-triangle-updown {
+        width: 180px;
+        height: 180px;
+        margin-top: 26px;
+    }
+    
+    .slider__bgr-text {
+        font-size: 95px;
+        top: -93px;
+        }
+    .slider__bgr-triangle-down-btn {
+        margin-top: 4px;
+    }
+    
+    .route-work__heading {
+        margin: 68px 0px;
+        font-size: var(--font-size-mobile-heading);
+    
+    }
+    
+    .route-work-steps__list {
+        margin: 0 38px;
+    }
+    
+    .route-work-steps__list-item-right {
+        padding: 30px 0;
+    }
+    
+    .route-work__end{
+        padding: 60px 38px;
+    }
+    
+    .coach-content {
+        margin: 80px 50px 36px;
+    }
+
+    .coach-content__heading {
+        font-size: var(--font-size-mobile-heading);
+        margin: 0px;
+        line-height: 1.4;
+    }
+    
+    .coach-content__text{
+        margin-top: 30px;
+    }
+
+    .coach-build {
+        margin: 0 38px;
+    }
+    
+    .percept__header {
+        margin: 0px;
+    }
+    
+    .percept__heading-text {
+        font-size: var(--font-size-mobile-heading);
+        line-height:1.3;
+        padding: 0;
+    }
+
+    .support__image {
+        margin: -62px 0;
+        background-size: 283px 477px;
+        width: 358px;
+    }
+    
+    .support-header {
+        width: 323px;
+        height: 111px;
+        left: 31px;
+        top: -544px;
+    }
+
+    .support-header__heading {
+        line-height: 1.1;
+        font-size: var(--font-size-mobile-heading);
+    }
+    .support-header__heading {
+        left: 11px;
+    }
+
+    .support-content__help-profil {
+        margin: -132px 38px 44px;
+    }
+
+    .about__partner-list{
+        padding: 0px;
+    }
+
+    .about__content {
+        margin: 110px 38px 64px;
+    }
+
+    .about__content-heading {
+        line-height: 1.1;
+        font-size: var(--font-size-mobile-heading);
+    }
+
+    .about__content-list {
+        margin-top: 40px;
+    }
+
+    .about__content-list--border {
+        margin-top: 30px;
+    }
+
+    .contact {
+       margin: 0;
+    }
+
+    .contact__form {
+        margin: 62px 38px 20px;
+    }
+
+    .contact__form--inform--flex--wrap {
+        flex-wrap: wrap;
+    }
+
+    .contact__form--inform--flex {
+        flex-basis: 100%;
+    }
+
+    .contact__form-heading {
+        padding-top: 24px;
+        display: block;
+    }
+
+    .contact__end {
+        margin: 30px 38px;
+    }
+
+    .contact__end--text {
+        padding: 24px;
+    }
+
+    .footer__content {
+        color: var(--white-color);
+        margin: 24px 39px;
+    }
+}
